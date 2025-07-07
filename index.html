@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AutoInventor + AGI Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="manifest.json">
+  <style>
+    body { background-color: #121212; color: white; font-family: sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0; }
+    h1 { font-size: 2em; margin: 0.5em 0; }
+    button { background: #00bcd4; border: none; color: white; padding: 12px 24px; font-size: 1em; border-radius: 6px; margin-top: 1em; cursor: pointer; }
+  </style>
+  <script>
+    function requestPush() {
+      Notification.requestPermission().then(function(permission) {
+        if (permission === 'granted') {
+          alert('Push notification test triggered.');
+        } else {
+          alert('Push notifications not granted.');
+        }
+      });
+    }
+  </script>
+</head>
+<body>
+  <h1>🚀 AutoInventor + AGI Dashboard</h1>
+  <p>Status: Live AGI Evolution + Truth Lock</p>
+  <button onclick="requestPush()">Enable Notifications</button>
+</body>
+</html>
