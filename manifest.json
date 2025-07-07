@@ -1,0 +1,14 @@
+
+{
+  "name": "AutoInventor",
+  "short_name": "AutoInventor",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "description": "AutoInventor AGI Dashboard",
+  "icons": [{
+    "src": "icons/icon.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }]
+}
