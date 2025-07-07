@@ -1,0 +1,45 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #111;
+}
+
+h1 .highlight {
+    color: #2020f0;
+}
+
+#progress-container {
+    width: 100%;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+#progress-bar {
+    width: 100%;
+    height: 100%;
+    background-color: #00aaff;
+    border-radius: 5px;
+    animation: progress 2s ease-in-out;
+}
+
+@keyframes progress {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+.buttons button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    background-color: #e0e0ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #c0c0ff;
+}
