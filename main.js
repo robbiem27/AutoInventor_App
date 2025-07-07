@@ -1,1 +1,7 @@
-console.log('AutoInventor + AGI loaded');
+function startRecording() {
+  alert("Starting Retroactive Recording... 🚀");
+}
+
+function startTimeTravel() {
+  alert("Launching Time Travel... 🌌");
+}
